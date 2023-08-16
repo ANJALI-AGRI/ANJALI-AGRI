@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATA</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Madan,Anandi;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff69b4; /* Hot pink */
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 40px 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .column {
+            flex: 1;
+            min-width: 200px;
+            max-width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f8c0d0; /* Light pink */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .column h2 {
+            color: #fff;
+        }
+        .feature-box {
+            margin: 10px;
+            padding: 10px;
+            background-color: #ffe4e1; /* Misty rose */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+        }
+        .pricing .column {
+            text-align: center;
+        }
+        .pricing .plan {
+            background-color: #f8c0d0; /* Light pink */
+            color: #fff;
+        }
+        .plan h3 {
+            color: #fff;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #ff1493; /* Deep pink */
+            color: #fff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #ff0066; /* A darker shade of deep pink on hover */
+        }
+        footer {
+            background-color: #ff69b4; /* Hot pink */
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Responsive Styles (for smaller screens) */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .column {
+                max-width: 100%;
+            }
+            .pricing .column {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Creata and Company</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Features Section -->
+            <section class="features">
+                <h2>Key Features</h2>
+                <div class="column">
+                    <h2>Feature 1</h2>
+                    <div class="feature-box">
+                        <h3>Sub-Feature 1</h3>
+                        <p>User may be exprienced or fresher.</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Sub-Feature 2</h3>
+                        <p>User have basics knowlewge about computer and good knowledge about languages.</p>
+                    </div>
+                </div>
+
+                <!-- Add more feature columns here with additional content -->
+
+            </section>
+
+            <!-- Testimonials Section ... (same as previous code) ... -->
+
+            <!-- Pricing Section -->
+            <section class="pricing">
+                <h2>Pricing Plans</h2>
+                <div class="container">
+                    <div class="column">
+                        <div class="plan">
+                            <h3>Plan 1</h3>
+                            <div class="feature-box">
+                                <h4>Condition 1</h4>
+                                <p>For Fresher's:10000-15000</p>
+                            </div>
+                            <div class="feature-box">
+                                <h4>Condition 2</h4>
+                                <p>For Exprienced:15000-20000</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more pricing columns here with additional content -->
+
+                </div>
+                <a href="#" class="cta-button">Get Started</a>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Creata and Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>

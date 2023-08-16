@@ -1,0 +1,84 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: row;
+            overflow-x: auto;
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            min-width: 100vw;
+            padding: 50px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+        }
+        section:nth-child(odd) {
+            background-color: #f4f4f4;
+        }
+        section:nth-child(even) {
+            background-color: #e0e0e0;
+        }
+    </style>
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <section id="header">
+        <h1>Anjali Agri</h1>
+        <p>Web Developer & Designer</p>
+    </section>
+
+    <section id="about">
+        <img src=""Your Name">
+        <p>About Me: A passionate web developer with a love for creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="C:\Users\anjal\OneDrive\Pictures\project1.PNG" alt="Project 1">
+            <h3>Project 1 Title</h3>
+            <p>Description of Project 1.</p>
+        </div>
+        <div class="project">
+            <img src="C:\Users\anjal\OneDrive\Pictures\project2.PNG" alt="Project 2">
+            <h3>Project 2 Title</h3>
+            <p>Description of Project 2.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="your-resume.pdf" target="_blank">Download PDF Resume</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your@email.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+</body>
+</html>
